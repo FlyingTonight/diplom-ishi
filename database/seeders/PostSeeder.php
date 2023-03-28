@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\Post;
 use Illuminate\Database\Seeder;
-use illiminate\Database\Console\Seeds\WithoutModelEvents;
+use Illiminate\Database\Console\Seeds\WithoutModelEvents;
 class PostSeeder extends Seeder
 {
     /**
