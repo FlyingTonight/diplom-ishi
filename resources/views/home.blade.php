@@ -56,15 +56,15 @@
                     <div class="navbar-nav ms-auto py-0">
                         <a href="/home" class="nav-item nav-link">Bosh Sahifa</a>
                         <a href="/about" class="nav-item nav-link">Biz Haqimizda</a>
-                        <a href="/domain" class="nav-item nav-link">Domain Hizmatlari</a>
-                        <a href="/hosting" class="nav-item nav-link">Hosting Hizmatlari</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Boshqa <br>Sahifalar</a>
+                        <a href="/domain" class="nav-item nav-link">Domain</a>
+                        <a href="/hosting" class="nav-item nav-link">Hosting</a>
+                        <a href="/testimonial" class="nav-item nav-link">Blog</a>
+
                             <div class="dropdown-menu m-0">
                                 <a href="/team" class="dropdown-item">Bizning Jamoa</a>
-                                <a href="/testimonial" class="dropdown-item">Testimonial</a>
+
                                 <a href="/comparison" class="dropdown-item">Comparison</a>
-                            </div>
+
                         </div>
                         <a href="/contact" class="nav-item nav-link">Biz bilan Aloqa</a>
                     </div>
