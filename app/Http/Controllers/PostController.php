@@ -18,9 +18,9 @@ class PostController extends Controller
     public function __construct()
     {
 
-        $this->middleware('auth')->except(['index','show']);
-        $this->authorizeResource(Post::class, 'post');
-    }
+    //     $this->middleware('auth')->except(['index','show']);
+    //     $this->authorizeResource(Post::class, 'post');
+     }
 
     public function index()
     {

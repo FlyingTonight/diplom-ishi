@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\PageController;
 /*
 |--------------------------------------------------------------------------
@@ -14,17 +15,21 @@ use App\Http\Controllers\PageController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 Route::get('/home',[PageController::class, 'home']);
 Route::get('/about',[PageController::class, 'about']);
 Route::get('/domain',[PageController::class, 'domain']);
-Route::get('/comparison',[PageController::class, 'comparison']);
 Route::get('/hosting',[PageController::class, 'hosting']);
 Route::get('/team',[PageController::class, 'team']);
 Route::get('/contact',[PageController::class, 'contact']);
-Route::get('/testimonial',[PageController::class, 'testimonial']);
+
+
+Route::resources([
+    'posts' => PostController::class,
+    // 'users' => UserController::class,
+]);
 
 Route::get('/dashboard', function () {
     return view('dashboard');

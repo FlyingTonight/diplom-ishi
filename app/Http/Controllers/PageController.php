@@ -1,14 +1,15 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
     public function home()
     {
-        return view('home');
+        $posts = User::latest();
+        return view('home')->with('users',$user);
     }
     public function about()
     {
@@ -22,20 +23,9 @@ class PageController extends Controller
     {
         return view('hosting');
     }
-    public function team()
-    {
-        return view('team');
-    }
-    public function comparison()
-    {
-        return view('comparison');
-    }
-    public function testimonial()
-    {
-        return view('testimonial');
-    }
     public function contact()
     {
         return view('contact');
     }
+
 }

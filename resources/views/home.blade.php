@@ -58,7 +58,7 @@
                         <a href="/about" class="nav-item nav-link">Biz Haqimizda</a>
                         <a href="/domain" class="nav-item nav-link">Domain</a>
                         <a href="/hosting" class="nav-item nav-link">Hosting</a>
-                        <a href="/testimonial" class="nav-item nav-link">Blog</a>
+                        <a href="{{ route('posts.index') }}" class="nav-item nav-link">Blog</a>
 
                             <div class="dropdown-menu m-0">
                                 <a href="/team" class="dropdown-item">Bizning Jamoa</a>

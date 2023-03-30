@@ -28,12 +28,12 @@
                         </div>
                     </div>
                          <div class="d-flex mb-2">
-                            @foreach ($post->tags as $tag )
+                            {{-- @foreach ($post->tags as $tag ) --}}
 
 
-                        <a class="text-secondary text-uppercase font-weight-medium">{{$tag->name}}</a>
+                        {{-- <a class="text-secondary text-uppercase font-weight-medium">{{$tag->name}}</a>
                         <span class="text-primary px-2">|</span>
-                        @endforeach
+                        @endforeach --}}
                     </div>
                     <div class="d-flex mb-2">
                         <a class="text-danger text-uppercase font-weight-medium" href="">{{$post->category->name}}</a>
@@ -45,28 +45,7 @@
               @endforeach
               {{$posts->links()}}
 
-                {{--  pagination --}}
-                {{-- <div class="col-12">
-                    <nav aria-label="Page navigation">
-                      <ul class="pagination pagination-lg justify-content-center mb-0">
-                        <li class="page-item disabled">
-                          <a class="page-link" href="#" aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                            <span class="sr-only">Previous</span>
-                          </a>
-                        </li>
-                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item">
-                          <a class="page-link" href="#" aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                            <span class="sr-only">Next</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </nav>
-                </div> --}}
+                </div>
             </div>
         </div>
     </div>
