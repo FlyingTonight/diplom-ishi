@@ -31,6 +31,9 @@ Route::resources([
     // 'users' => UserController::class,
 ]);
 
+Route::resource('projects', ProjectController::class)->middleware('auth');
+
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');

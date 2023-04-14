@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Models\User;
+use App\Models\HostingPlan;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -9,7 +10,7 @@ class PageController extends Controller
     public function home()
     {
         $posts = User::latest();
-        return view('home')->with('users',$user);
+        return view('home')->with('user',$user);
     }
     public function about()
     {
@@ -20,8 +21,8 @@ class PageController extends Controller
         return view('domain');
     }
     public function hosting()
-    {
-        return view('hosting');
+    {   $plans = HostingPlan::all();
+        return view('hosting')->with('plans');
     }
     public function contact()
     {

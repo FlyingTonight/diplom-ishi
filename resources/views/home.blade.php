@@ -54,7 +54,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="/home" class="nav-item nav-link">Bosh Sahifa</a>
+                        <a href="/" class="nav-item nav-link">Bosh Sahifa</a>
                         <a href="/about" class="nav-item nav-link">Biz Haqimizda</a>
                         <a href="/domain" class="nav-item nav-link">Domain</a>
                         <a href="/hosting" class="nav-item nav-link">Hosting</a>

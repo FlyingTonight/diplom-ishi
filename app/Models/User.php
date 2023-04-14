@@ -12,6 +12,18 @@ class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
 
+    public function projects()
+    {
+        return $this->hasMany(Project::class);
+    }
+
+    /**
+     * Get the hosting plan for the user.
+     */
+    public function hostingPlan()
+    {
+        return $this->hasOne(HostingPlan::class);
+    }
     /**
      * The attributes that are mass assignable.
      *

@@ -143,16 +143,16 @@
                         <div class="row gy-5 g-4">
                             <div class="col-md-6">
                                 <h5 class="fw-bold text-white mb-4">About Us</h5>
-                                <a class="btn btn-link" href="">About Us</a>
-                                <a class="btn btn-link" href="">Contact Us</a>
+                                <a class="btn btn-link" href="/about">About Us</a>
+                                <a class="btn btn-link" href="/contact">Contact Us</a>
                                 <a class="btn btn-link" href="">Privacy Policy</a>
                                 <a class="btn btn-link" href="">Terms & Condition</a>
                                 <a class="btn btn-link" href="">Support</a>
                             </div>
                             <div class="col-md-6">
                                 <h5 class="fw-bold text-white mb-4">Our Services</h5>
-                                <a class="btn btn-link" href="">Domain Register</a>
-                                <a class="btn btn-link" href="">Shared Hosting</a>
+                                <a class="btn btn-link" href="/domain">Domain Register</a>
+                                <a class="btn btn-link" href="/hosting">Shared Hosting</a>
                                 <a class="btn btn-link" href="">VPS Hosting</a>
                                 <a class="btn btn-link" href="">Dedicated Hosting</a>
                                 <a class="btn btn-link" href="">Reseller Hosting</a>
@@ -171,14 +171,7 @@
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-lg-n5">
-                        <div class="bg-light rounded" style="padding: 30px;">
-                            <input type="text" class="form-control border-0 py-2 mb-2" placeholder="Name">
-                            <input type="email" class="form-control border-0 py-2 mb-2" placeholder="Email">
-                            <textarea class="form-control border-0 mb-2" rows="2" placeholder="Message"></textarea>
-                            <button class="btn btn-primary w-100 py-2">Send Message</button>
-                        </div>
-                    </div>
+
                 </div>
             </div>
             <div class="container px-lg-5">
