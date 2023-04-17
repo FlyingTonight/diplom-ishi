@@ -12,7 +12,7 @@
             </div>
             <div class="row gy-5 gx-4">
 
-                @foreach ($plans as $plan )
+
 
 
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
@@ -32,6 +32,7 @@
                             </h1>
                             <a class="btn btn-primary px-4 py-2" href="">Buy Now</a>
                         </div>
+
                         <div class="p-4">
                             <p class="border-bottom pb-3"><i class="fa fa-check text-primary me-3"></i>100 GB Disk Space</p>
                             <p class="border-bottom pb-3"><i class="fa fa-check text-primary me-3"></i>Unlimited Bandwith</p>
@@ -41,7 +42,7 @@
                         </div>
                     </div>
                 </div>
-                @endforeach
+                <a href="{{ route('projects.index') }}" class="nav-item nav-link">Blog</a>
             </div>
         </div>
     </div>
