@@ -10,7 +10,7 @@ class PageController extends Controller
     public function home()
     {
         $posts = User::latest();
-        return view('home')->with('user',$user);
+        return view('home')->with('user',$posts);
     }
     public function about()
     {
@@ -22,7 +22,7 @@ class PageController extends Controller
     }
     public function hosting()
     {   $plans = HostingPlan::all();
-        return view('hosting')->with('plans');
+        return view('hosting')->with('plans',$plans);
     }
     public function contact()
     {

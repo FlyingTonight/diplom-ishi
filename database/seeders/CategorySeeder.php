@@ -14,11 +14,15 @@ class CategorySeeder extends Seeder
      */
     public function run()
     {
-        Category::create(['name'=>'Web Design']);
-        Category::create(['name'=>'Web Development']);
-        Category::create(['name'=>'Online Marketing']);
-        Category::create(['name'=>'Keyword Research']);
-        Category::create(['name'=>'Email Marketing']);
+        Category::create(['name'=>'Html Css JavaScript Php MySql']);
+        Category::create(['name'=>'JavaScript Laravel MySql']);
+        Category::create(['name'=>'Vue.js Laravel MySql']);
+        Category::create(['name'=>'JavaScript Pyhton MySql']);
+        Category::create(['name'=>'Vue.js Django MySql']);
+        Category::create(['name'=>'JavaScript Node.js MySql']);
+        Category::create(['name'=>'Vue.js .NET MySql']);
+        Category::create(['name'=>'Bootstrap Laravel MySql']);
+
 
     }
 }

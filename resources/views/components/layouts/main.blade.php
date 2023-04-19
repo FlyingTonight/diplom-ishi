@@ -75,7 +75,9 @@
                     <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
                     @else
                     <button type="button" class="btn text-secondary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
-                    <a href="{{ route('login') }}" class="btn btn-secondary py-2 px-4 ms-3">login</a>
+
+                        <a href="{{route ('posts.create')}}" class="btn btn-primary mr-3 d-none d-lg-block">Post Yaratish</a>
+                        <a href="{{ route('login') }}" class="btn btn-secondary py-2 px-4 ms-3">login</a>
 
                 @if (Route::has('register'))
 

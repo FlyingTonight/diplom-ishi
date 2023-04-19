@@ -69,7 +69,7 @@
                         <a href="/contact" class="nav-item nav-link">Biz bilan Aloqa</a>
                     </div>
                     <butaton type="button" class="btn text-secondary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
-                    <a href="" class="btn btn-secondary py-2 px-4 ms-3">Register</a>
+                    
                 </div>
             </nav>
 
